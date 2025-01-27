@@ -5,36 +5,33 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Example content for the shop -->
     <TextView
         android:id="@+id/shopTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Shop Page"
+        android:text="@string/shop_page"
         android:textSize="24sp"
         android:gravity="center"
         android:layout_marginBottom="32dp" />
 
-    <!-- RecyclerView Placeholder (for future content) -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/shopRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!-- Navigation Buttons -->
     <Button
         android:id="@+id/toBasketButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Basket"
+        android:text="@string/go_to_basket"
         android:layout_gravity="center" />
 
     <Button
         android:id="@+id/backToMainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to Main"
+        android:text="@string/back_to_main"
         android:layout_gravity="center"
         android:layout_marginTop="16dp" />
 </LinearLayout>

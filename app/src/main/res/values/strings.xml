@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ThePerfumeShop</string>
-    <string name="shop_description">Welcome to the Perfume Shop!</string>
+    <string name="shop_description">Discover our amazing collection of perfumes!</string>
     <string name="total_price">Total Price: $%.2f</string>
     <string name="order_confirmed">Order Confirmed!</string>
     <string name="fill_fields">Please fill in all fields!</string>
@@ -10,8 +10,32 @@
     <string name="perfume_price">Price</string>
     <string name="add_to_basket">Add to Basket</string>
     <string name="price_placeholder">Price: %.2f</string>
+    <string name="shop_headline">Welcome to The Perfume Shop</string>
+    <string name="shop_page">Shop Page</string>
+    <string name="welcome_message">Welcome to the Perfume Store!</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_swedish">Swedish</string>
+    <string name="language_english">English</string>
+    <string name="shop_activity_title">Shop Perfumes</string>
+    <string name="basket_activity_title">Your Basket</string>
+    <string name="total_price_format">Total: $%.2f</string>
+    <string name="price_format">$%.2f</string>
+    <string name="back_to_shop">Back to Shop</string>
+    <string name="proceed_to_confirm">Proceed to Confirm</string>
+    <string name="confirm_activity_title">Confirm Your Order</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Street Address</string>
+    <string name="city">City</string>
+    <string name="card_number">Card Number</string>
+    <string name="fill_all_fields">Please fill in all fields!</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="go_to_shop">Go to Shop</string>
+    <string name="select_language_swedish">SE</string>
+    <string name="select_language_english">EN</string>
 
-    <!-- Dynamic perfume data -->
     <string-array name="perfume_names">
         <item>Rose Elegance</item>
         <item>Vanilla Bliss</item>
@@ -20,55 +44,10 @@
     </string-array>
 
     <string-array name="perfume_prices">
+        <item>29.99</item>
+        <item>39.99</item>
         <item>49.99</item>
         <item>59.99</item>
-        <item>39.99</item>
-        <item>69.99</item>
     </string-array>
-
-
-
-
-    <!-- MainActivity -->
-    <string name="welcome_message">Welcome to the Perfume Store!</string>
-    <string name="shop_now">Shop Now</string>
-    <string name="select_language">Select Language</string>
-    <string name="language_swedish">Swedish</string>
-    <string name="language_english">English</string>
-
-    <!-- ShopActivity -->
-    <string name="shop_activity_title">Shop Perfumes</string>
-
-
-    <!-- BasketActivity -->
-    <string name="basket_activity_title">Your Basket</string>
-    <string name="total_price_format">Total: $%.2f</string>
-    <string name="price_format">$%.2f</string>
-
-
-    <string name="back_to_shop">Back to Shop</string>
-    <string name="proceed_to_confirm">Proceed to Confirm</string>
-
-    <!-- ConfirmActivity -->
-    <string name="confirm_activity_title">Confirm Your Order</string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="address">Street Address</string>
-    <string name="city">City</string>
-    <string name="card_number">Card Number</string>
-    <string name="fill_all_fields">Please fill in all fields!</string>
-
-    <string name="cancel">Cancel</string>
-    <string name="confirm">Confirm</string>
-
-
-    <!-- Button text -->
-    <string name="go_to_shop">Go to Shop</string>
-
-    <!-- Language selection -->
-    <string name="select_language_swedish">Svenska</string>
-    <string name="select_language_english">English</string>
-
-
 
 </resources>

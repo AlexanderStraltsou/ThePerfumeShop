@@ -1,6 +1,5 @@
 package com.example.theperfumeshop
 
-
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 

@@ -15,14 +15,12 @@ class ConfirmActivity : AppCompatActivity() {
         binding = ActivityConfirmBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Cancel button: Return to MainActivity
         binding.buttonCancel.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
             startActivity(intent)
         }
 
-        // Confirm button: Show a toast and return to MainActivity
         binding.buttonConfirm.setOnClickListener {
             val name = binding.editTextFirstName.text.toString()
             val surname = binding.editTextLastName.text.toString()

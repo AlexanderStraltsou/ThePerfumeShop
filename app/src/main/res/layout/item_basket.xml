@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -10,7 +9,7 @@
         android:id="@+id/perfume_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="Perfume Image" />
+        android:contentDescription="@string/perfume_name" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -22,14 +21,15 @@
             android:id="@+id/perfume_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Perfume Name"
+            android:text="@string/perfume_name"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/perfume_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Price"
+            android:text="@string/perfume_price"
             android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>
+

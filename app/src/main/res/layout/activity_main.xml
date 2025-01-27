@@ -4,26 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
-
-    <!-- Shop description -->
-    <TextView
-        android:id="@+id/shopDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/shop_description"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:layout_marginBottom="32dp"/>
-
-    <!-- Button to go to ShopActivity -->
-    <Button
-        android:id="@+id/goToShop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/go_to_shop"
-        android:layout_gravity="center"/>
-
-    <!-- Button to select language (example in the case you want to add it) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,4 +25,56 @@
             android:layout_marginStart="16dp"/>
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/shopHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_headline"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/shopDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_description"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="32dp">
+
+        <ImageView
+            android:id="@+id/perfumeImage1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/perfume1"
+            android:contentDescription="@string/perfume_name"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/perfumeImage2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/perfume2"
+            android:contentDescription="@string/perfume_name" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goToShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_shop"
+        android:layout_gravity="center"/>
 </LinearLayout>
+
+
